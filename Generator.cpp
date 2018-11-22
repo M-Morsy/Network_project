@@ -75,7 +75,7 @@ int main()
 	}
 	
 	string TransmittedData = D + Padding;
-	//cout << TransmittedData<<"\n";
+	
 	Rm = generator(TransmittedData, G);
 	cout << Rm;
 	
