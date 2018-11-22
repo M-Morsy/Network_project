@@ -27,7 +27,7 @@ string generator(string td, string G) {
 	for (int i = 0; i < nbits; i++) {
 		znbits="0"+znbits;
 	}
-	string temptd = td.substr(0, nbits);// Slicing the divident to appropriate length for particular step
+	string temptd = td.substr(0, nbits);// Slicing the transmitted data to appropriate length for particular step
 
 	while (nbits < td.length()) {
 		//replace the transmitted data by the result  of XOR and pull 1 bit down
